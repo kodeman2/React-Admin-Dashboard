@@ -7,7 +7,7 @@ export default function Featuredinfo() {
 <div className="featuredItem">
   <span className="featuredTitle">Revenue</span>
   <div className="featuredMoneyContainer">
-    <span className="featuredMoney">$2,890</span>
+    <span className="featuredMoney">$2,895</span>
     <span className="featuredMoneyRate">
      -11.4 <ArrowDownward />
     </span>
@@ -22,7 +22,7 @@ export default function Featuredinfo() {
      -1.4 <ArrowDownward />
     </span>
   </div>
-  <span className="featuredSub">Compared to last Month</span>
+  <span className="featuredSub">Compared with last Month</span>
 </div>
 <div className="featuredItem">
   <span className="featuredTitle">Cost</span>
