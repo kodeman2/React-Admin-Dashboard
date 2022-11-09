@@ -44,7 +44,7 @@ const rows = [
   { id: 6, lastName: "Melisandre", firstName: null, age: 150 },
   { id: 7, lastName: "Clifford", firstName: "Ferrara", age: 44 },
   { id: 8, lastName: "Frances", firstName: "Rossini", age: 36 },
-  { id: 9, lastName: "Roxie", firstName: "Harvey", age: 65 },
+  { id: 9, lastName: "Roxie", firstName: "Harvey", age: 64 },
 ];
 
   return (
