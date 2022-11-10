@@ -1,51 +1,125 @@
-import "./userList.css";
+import "./userlist.css";
 import { DataGrid } from "@mui/x-data-grid";
 
-
 export default function UserList() {
+  const columns = [
+    { field: "id", headerName: "ID", width: 90 },
+    {
+      field: "username",
+      headerName: "Username",
+      width: 200,
+    },
+    {
+      field: "email",
+      headerName: "Email",
+      width: 200,
+    },
+    {
+      field: "status",
+      headerName: "Status",
+      width: 120,
+    },
 
- const columns = [
-  { field: "id", headerName: "ID", width: 90 },
-  {
-    field: "firstName",
-    headerName: "First name",
-    width: 150,
-    editable: true,
-  },
-  {
-    field: "lastName",
-    headerName: "Last name",
-    width: 150,
-    editable: true,
-  },
-  {
-    field: "age",
-    headerName: "Age",
-    type: "number",
-    width: 110,
-    editable: true,
-  },
-  {
-    field: "fullName",
-    headerName: "Full name",
-    description: "This column has a value getter and is not sortable.",
-    sortable: false,
-    width: 160,
-    
-  },
-];
+    {
+      field: "transaction",
+      headerName: "Transaction Volume",
+      width: 160,
+    },
+  ];
 
-const rows = [
-  { id: 1, lastName: "Snow", firstName: "Jon", age: 35 },
-  { id: 2, lastName: "Lannister", firstName: "Cersei", age: 42 },
-  { id: 3, lastName: "Lannister", firstName: "Jaime", age: 45 },
-  { id: 4, lastName: "Stark", firstName: "Arya", age: 16 },
-  { id: 5, lastName: "Targaryen", firstName: "Daenerys", age: null },
-  { id: 6, lastName: "Melisandre", firstName: null, age: 150 },
-  { id: 7, lastName: "Clifford", firstName: "Ferrara", age: 44 },
-  { id: 8, lastName: "Frances", firstName: "Rossini", age: 36 },
-  { id: 9, lastName: "Roxie", firstName: "Harvey", age: 64 },
-];
+  const rows = [
+    {
+      id: 1,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 2,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 3,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 4,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 5,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 6,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 7,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 8,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+    {
+      id: 9,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+
+    {
+      id: 10,
+      username: "chad bosewick",
+      avatar:
+        "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      email: "chad@gmail.com",
+      status: "active",
+      transaction: "$122.00",
+    },
+  ];
 
   return (
     <div className="userList">
