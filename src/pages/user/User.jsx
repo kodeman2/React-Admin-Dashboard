@@ -25,7 +25,7 @@ export default function User() {
             <span className="userShowTitle">Account Details</span>
             <div className="userShowInfo">
               <PermIdentity className="userShowIcon" />
-              <span className="userShowInfoTitle">annabedl33</span>
+              <span className="userShowInfoTitle">annabedl3</span>
             </div>
             <div className="userShowInfo">
               <CalendarToday className="userShowIcon" />
