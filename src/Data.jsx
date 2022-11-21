@@ -63,7 +63,7 @@ export const userRows = [
       "https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     email: "chad@gmail.com",
     status: "active",
-    transaction: "$122.00",
+    transaction: "$124.00",
   },
   {
     id: 2,
