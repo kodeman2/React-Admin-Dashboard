@@ -1,4 +1,5 @@
 import './sidebar.css'
+import { Link } from 'react-router-dom';
 import {LineStyle, Timeline, TrendingUp, PermIdentity, Storefront, AttachMoney, BarChart, MailOutline, DynamicFeed, ChatBubbleOutline, WorkOutline, Report} from '@mui/icons-material';
 
 export default function Sidebar() {
@@ -23,7 +24,7 @@ export default function Sidebar() {
   <h3 className="sidebarTitle">Quick Menu</h3>
   <ul className="sidebarList">
    <li className="sidebarListItem">
-    <PermIdentity className="sidebarIcon" /> Users
+    <PermIdentity className="sidebarIcon" /> <Link to="/users" className="link">Users</Link>
    </li>
    <li className="sidebarListItem">
     <Storefront className="sidebarIcon" /> Products
